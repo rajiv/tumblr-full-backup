@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    mini_portile2 (2.3.0)
+    multi_xml (0.6.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
+    reverse_markdown (1.0.4)
+      nokogiri
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  reverse_markdown
+
+BUNDLED WITH
+   1.16.1
