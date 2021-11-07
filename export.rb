@@ -37,7 +37,7 @@ class TumblrPhotoExport
     end
 
     # URL to get Posts
-    @url          = "http://api.tumblr.com/v2/blog/#{@username}.tumblr.com/#{@what}?api_key=#{@api_key}"
+    @url          = "https://api.tumblr.com/v2/blog/#{@username}.tumblr.com/#{@what}?api_key=#{@api_key}"
 
     @public_dir   = public_dir
     @liked_dir    = liked_dir
