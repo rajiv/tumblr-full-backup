@@ -4,6 +4,7 @@
 require 'rubygems'
 require 'httparty'
 require 'reverse_markdown'
+require 'json'
 
 # Configuration
 what         = ARGV[0] #posts, likes
